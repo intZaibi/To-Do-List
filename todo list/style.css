@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+
+body {
+        background-color: #F7FAFC;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Set container as a column */
+    align-items: center;
+    justify-content: space-between; /* Distribute space evenly */
+    height: 100vh;
+    width: 100vw;
+}
+
+.todoList-wrapper {
+    min-width: 500px;
+    min-width: 350px; 
+    min-height: 665px;
+}
+
+h1 {
+    margin-top: 40px;
+    height: 65px;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #0D141C;
+    text-align: center;
+}
+
+.addBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 72px;
+    padding: 12px 16px;
+}
+
+input[type="text"] {
+    height: 48px;
+    flex: 1;
+    border: solid 1px black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin-right: 2%;
+    box-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.3);
+    background-color: #E8EDF5;
+    outline: none;
+    border: none;
+    
+}
+
+.addButton {
+    border: none;
+    outline: none;
+    padding: 18px 35px;
+    background-color: #0A73D9;
+    color: #F7FAFC;
+    font-size: 0.8em;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 40px;
+    margin: 2.5px 0 0 -30px;
+}
+
+.categories-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 72px;
+    padding: 12px 16px;
+}
+
+.categories {
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #0D141C;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #E8EDF5;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#category3 {
+    min-width: 55px;
+}
+
+.category-checked {
+    background-color: #0a71d9c9;
+}
+
+.tasks{
+    width: 100%;
+    /* background-color:aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    margin: 6px 0;
+    list-style: none;
+}
+
+.tasks-wrapper{
+    min-height: 50vh;
+}
+
+.checkbox {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.footer{
+    height: 80px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.clearButton{
+    height: 56px;
+    width: 64px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background-color: #0A73D9;
+    color: #E8EDF5;
+    font-weight: 600;
+    text-wrap: wrap;
+    cursor: pointer;
+    margin: 0 10px 20px 0;
+}
+
+.checked {
+    text-decoration: line-through;
+}
